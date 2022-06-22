@@ -1,0 +1,45 @@
+---
+featured: false
+title: 'CSS Grid'
+description: 'Into the wilderness of CSS Grid.'
+published: '2021-01-23'
+last_modified: '2021-01-23'
+thumbnail: 'grid_k7isrt.jpg'
+author_name: 'Sean Groff'
+author_image: '/static/avatar.jpg'
+tags: ['css', 'grid']
+keywords: ['css', 'grid']
+---
+
+## Grid Container
+
+### Display
+
+```css
+.container {
+  display: grid;
+}
+```
+
+Creates a block level grid.
+
+### Columns & Rows
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20px 20px;
+}
+```
+
+### Gaps
+
+```css
+.container {
+  display: grid;
+  grid-gap: 8px;
+}
+```
+
+## Grid Items
